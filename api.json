@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-08",
     "repository": "https://github.com/wyrdness/jengu",
     "maintainers": [
       {
@@ -16,72 +16,138 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "jengu",
-    "name": "Jengu - Cameroonian Water Spirit",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Benevolent water spirits, mermaid-like beings, healing entities",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Jengu",
+    "aliases": [
+      { "name": "Miengu", "language": "Duala", "region": "Cameroon", "meaning": "Plural form of jengu" },
+      { "name": "Liengu", "language": "Bakweri", "region": "Cameroon", "meaning": "Bakweri singular form" },
+      { "name": "Maengu", "language": "Bakweri", "region": "Cameroon", "meaning": "Bakweri plural form" },
+      { "name": "Bisima", "language": "Sawa languages", "region": "Cameroon", "meaning": "Alternative name used among Sawa-speaking peoples" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Water spirit / healing entity",
+    "tags": [
+      "cameroonian",
+      "sawa",
+      "duala",
+      "bakweri",
+      "water-spirit",
+      "mermaid",
+      "healing",
+      "divination",
+      "africa",
+      "central-africa"
+    ],
+    "status": "active",
     "description": {
-      "summary": "The Jengu (plural: Miengu) are beautiful water spirits from the folklore of the Sawa peoples of Cameroon's coastal and riverine regions, particularly among the Duala, Bakweri, Malimba, Subu, and related ethnic groups.",
-      "full": "The Jengu (plural: Miengu) are beautiful water spirits from the folklore of the Sawa peoples of Cameroon's coastal and riverine regions, particularly among the Duala, Bakweri, Malimba, Subu, and related ethnic groups. These mermaid-like beings are renowned for their extraordinary beauty, their benevolent nature toward humans, and their association with healing, divination, and spiritual practice."
+      "summary": "The Jengu (plural Miengu) are beautiful, mermaid-like water spirits from the folklore of the Sawa peoples of Cameroon's coastal and riverine regions, venerated for healing, protection, and mediation between the living and the ancestral world.",
+      "full": "The Jengu (singular) or Miengu (plural) are water spirits from the oral traditions of the Sawa-speaking peoples of Cameroon's coast and river regions, particularly the Duala, Bakweri, Malimba (Limba), Subu, Bakoko, and Oroko ethnic groups. Among the Bakweri the singular form is liengu and the plural maengu. Jengu are described as beautiful, mermaid-like beings with long hair and distinctive gap-teeth. They inhabit the oceans, rivers, and lakes of Cameroon — particularly the Wouri River, its tributaries, the Wouri estuary, and nearby islands. Their spiritual functions are broad and benevolent: they act as intermediaries between the living and ancestral spirits; control the fate of humans and animals in waterways; bring good fortune to those who venerate them; cure disease through healing rituals; and provide prophetic messages about coming years. European traders and explorers documented jengu worship as well established along the Cameroonian coast by the early 19th century. The jengu are venerated through dedicated ritual specialists and community ceremonies. The annual Ngondo festival, inaugurated in 1949, is the most prominent public celebration associated with jengu veneration, bringing together Sawa peoples along the Wouri River in Douala. The jengu tradition is related to similar water-spirit beliefs across the region: the bisimbi of Kongo religion and the Mamba Muntu figure present across West and Central African cultures."
     },
     "etymology": {
-      "origin": "Cameroon (Sawa peoples of coastal regions)",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Duala language, spoken by the Duala people of the Cameroonian coast. Jengu (singular) / miengu (plural) is the Duala form; Bakweri has liengu / maengu.",
+      "meaning": "The term refers specifically to these aquatic spirits; the precise etymological meaning within Duala is not documented in available sources.",
+      "first_use": "Living oral tradition; European documentation from early 19th century."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Benevolent water spirits, mermaid-like beings, healing entities",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Water spirit",
+      "subtype": "Benevolent healing spirit / ancestral intermediary",
+      "variant": "Cameroonian Sawa coastal tradition"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mami-wata", "name": "Mami Wata", "relationship": "similar", "description": "Pan-African water spirit with comparable appearance and healing functions; regional cognate" },
+      { "id": "bisimbi", "name": "Bisimbi", "relationship": "similar", "description": "Water spirits in Kongo religion; similar functions and aquatic habitat" },
+      { "id": "mamba-muntu", "name": "Mamba Muntu", "relationship": "similar", "description": "Mermaid-like water spirit present across West and Central African cultures" },
+      { "id": "nixie", "name": "Nixie", "relationship": "similar", "description": "Germanic water spirit with comparable humanoid aquatic form" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Mermaid-like form", "description": "Humanoid upper body with aquatic lower form; described as beautiful, mermaid-like beings", "frequency": "always" },
+        { "feature": "Long hair", "description": "Consistently described as having long hair", "frequency": "always" },
+        { "feature": "Gap-teeth", "description": "Beautiful gap-teeth are a distinctive and consistent physical trait noted in descriptions", "frequency": "always" }
+      ],
+      "morphology": "Humanoid aquatic spirits of feminine form with long hair and notably gap-toothed smiles; appearance consistent across ethnic groups though specific details vary."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Healing", "description": "Cures disease through rituals performed by dedicated specialist healers; a primary function of the miengu", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Intermediary between living and ancestors", "description": "Acts as a go-between connecting the living world to the realm of ancestral spirits", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Control over waterway fates", "description": "Controls the fate of humans and animals in rivers, estuaries, and coastal waters", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bestowing good fortune", "description": "Brings luck, prosperity, and good fortune to those who venerate them properly", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Prophecy and divination", "description": "Provides prophetic messages about coming years through ritual specialists", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "passive",
+      "social_structure": "variable",
+      "habitat_preference": ["rivers", "estuaries", "coastal ocean", "lakes", "Wouri River and tributaries"],
+      "diet": "Not specified",
+      "patterns": [
+        "Approached through dedicated ritual specialists rather than directly",
+        "Responsive to proper veneration and ceremony",
+        "Protective over those who offer correct respect",
+        "Associated with the annual Ngondo festival at the Wouri River"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Cameroon (Sawa peoples of coastal regions)",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Cameroonian coast and river regions, particularly the Wouri River, its tributaries, the Wouri estuary, and nearby islands. Veneration persists in Cameroon's Littoral and Southwest Provinces.",
+      "continents": ["Africa"],
+      "countries": ["Cameroon"],
+      "regions": [
+        "Littoral Province, Cameroon",
+        "Southwest Province, Cameroon",
+        "Wouri River and estuary",
+        "Douala"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Wouri River, Douala",
+        "location": {
+          "description": "Wouri River and estuary at Douala, the major city of coastal Cameroon",
+          "country": "Cameroon",
+          "region": "Littoral Province",
+          "coordinates": { "latitude": 4.0500, "longitude": 9.7000 }
+        },
+        "notes": "Primary home waters of the miengu; site of the annual Ngondo festival (inaugurated 1949)"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-1800",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "European observers documented jengu worship as well established by early 19th century"
+      },
+      "peak_activity_periods": [
+        { "period": "Early 19th century onward", "description": "Documented by European traders and explorers as an established practice" },
+        { "period": "1949–present", "description": "Annual Ngondo festival institutionalizes public jengu veneration" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Cameroon (Sawa peoples of coastal regions)",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The jengu tradition is rooted in the Sawa-speaking coastal peoples of Cameroon, including the Duala, Bakweri, Malimba, Subu, Bakoko, and Oroko. It is part of a living religious and cultural system with deep pre-colonial roots.",
+      "earliest_accounts": "European traders and explorers documented jengu worship as well established by the early 19th century.",
+      "folklore_connections": "The jengu tradition is related to bisimbi (Kongo religion) and Mamba Muntu across West and Central Africa, and parallels the Mami Wata complex found across the African Atlantic world."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1800-01-01", "event": "European traders and explorers document jengu worship as established practice among Sawa peoples of the Cameroonian coast", "significance": "Earliest external documentation; confirms pre-colonial depth of the tradition", "source": "Wikipedia / Jengu article" },
+      { "date": "1949-01-01", "event": "Annual Ngondo festival inaugurated; brings Sawa peoples together at the Wouri River for public jengu veneration and cultural celebration", "significance": "Institutionalization of jengu worship in public ceremonial calendar", "source": "Wikipedia / Jengu article" }
+    ],
+    "modern_era": "Jengu veneration remains an active living tradition among Sawa peoples of Cameroon. The annual Ngondo festival at Douala on the Wouri River is a major cultural event that includes public ceremonies connecting to jengu tradition. The miengu are an important component of Cameroonian cultural identity and coastal spiritual life."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +158,80 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Living spirit beings in waterways",
+        "description": "Within Sawa tradition, the miengu are genuine spiritual entities inhabiting the waters of the Cameroonian coast, accessible through ritual and responsive to proper veneration.",
+        "proponents": ["Sawa traditional religious practitioners", "Duala, Bakweri, and related community members"],
+        "evidence_cited": ["Living oral tradition", "Documented healing and ritual practices", "Ngondo festival ceremonies"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "River-environment personification",
+        "description": "The jengu tradition personifies the spiritual dimension of the river and coastal environment, encoding ecological knowledge about waterway danger and bounty into a narrative of spirit beings that demand respect.",
+        "proponents": ["Anthropologists of African religion"],
+        "evidence_cited": ["Strong association with specific water bodies", "Protective and dangerous qualities mirror actual river ecology"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Duala jengu / miengu tradition",
+        "Bakweri liengu / maengu tradition",
+        "Malimba, Subu, Bakoko, Oroko water spirit traditions"
+      ],
+      "stories": [
+        "The miengu control the fate of those who travel on the Wouri River; proper veneration ensures safety",
+        "Ritual specialists communicate with miengu to heal the sick and divine the future"
+      ],
+      "beliefs": "The miengu are venerated as genuine spiritual beings who inhabit and govern the waterways of the Cameroonian coast. Proper ritual respect is essential for safety in the waters and for access to healing and good fortune. The beliefs are living and actively practiced."
+    },
+    "indigenous": {
+      "cultures": ["Duala", "Bakweri", "Malimba (Limba)", "Subu", "Bakoko", "Oroko"],
+      "significance": "The miengu are central to Sawa coastal spiritual life and cultural identity. They are not merely 'mythology' but active participants in a living religious system.",
+      "sensitivity_note": "These are living spiritual beliefs embedded in active cultural and religious practice among Cameroonian coastal peoples.",
+      "respect_guidelines": "Engage with jengu traditions through the lens of living religion and cultural heritage; consult community members and specialists; avoid reducing active spiritual practice to mere 'legend.'"
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Featured in scholarship on African water spirits and Cameroonian cultural heritage"
+      ],
       "film_tv": [],
       "games": [],
-      "other": []
+      "other": [
+        "Ngondo festival — annual public Sawa cultural event at Douala, inaugurated 1949, includes jengu-related ceremonies"
+      ]
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "The jengu tradition is studied within African religious studies, cultural anthropology, and Cameroonian heritage scholarship."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-jengu",
+      "type": "website",
+      "title": "Jengu",
+      "url": "https://en.wikipedia.org/wiki/Jengu",
+      "accessed": "2026-05-08"
+    }
+  ]
 }
